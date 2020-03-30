@@ -39,7 +39,7 @@ public class StringAddCalculator {
     }
 
     private int checkNegative(int checkNumber) {
-        if(checkNumber < 0) {
+        if (checkNumber < 0) {
             throw new RuntimeException("음수는 입력 불가능합니다.");
         }
         return checkNumber;
