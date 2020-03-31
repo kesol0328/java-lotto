@@ -11,9 +11,4 @@ public class MoneyTest {
         Money money = new Money(14000);
         assertThat(money.createLottery(14000)).isEqualTo(14);
     }
-
-    @Test
-    void isNegative() {
-
-    }
 }

@@ -14,6 +14,10 @@ public class Money {
         return money / PER_LOTTO;
     }
 
+    public int getMoney() {
+        return money;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
